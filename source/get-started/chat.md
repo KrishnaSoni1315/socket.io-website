@@ -202,6 +202,7 @@ Let’s make it so that when the user types in a message, the server gets it as 
 
 And in `index.js` we print out the `chat message` event:
 
+
 ```js
 io.on('connection', function(socket){
   socket.on('chat message', function(msg){
